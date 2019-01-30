@@ -1,0 +1,40 @@
+*{margin: 0;padding: 0;border: none;}
+.wrapper {background-color: #062134;padding: 1px;}
+
+/*header  styles*/
+.header .logo-text1{color: #fff;}
+.header .logo-text2{color: #1a93de;}
+.header .navbar {padding: 1.5rem 3rem .5rem;align-items: baseline;}
+.header .navbar-nav a.nav-link.active {color: #245171;}
+.header .navbar-nav a {color: #fff;}
+.header .navbar-nav a:hover {color: #245171;}
+.header .navbar-nav li.nav-item {padding-left: 6rem;}
+.header .navbar-brand {text-transform: uppercase;}
+
+/*content styles*/
+.content {background-color: #fff;min-height: 800px;margin: 0 20px;padding: 20px;}
+.content .content-background img {width: 100%;display: inline;}
+.content-description {margin: 20px 0;}
+.description {background-color: #1468a8;padding: 10px;}
+.description .description-head {display: inline;vertical-align: bottom;color: #fff;text-transform: uppercase;margin-left: 10px;}
+.description-text {padding: 10px;color: #fff;line-height: 1.2;}
+.content .content-description .info-btn {padding: 0.5rem 3rem;
+	background-color: #198ed7;margin: 30px 10px 20px;border: 1px solid #3875a3;
+	background: linear-gradient(0deg, rgba(20,104,168,1) 43%, rgba(218,237,255,1) 127%);}
+
+/*third Content styles*/
+.third-content-head{text-transform: uppercase;margin: 20px 0 30px;color: #3b5160;}
+.third-content-img{width: 100%;}
+.third-content-left-text {padding: 0px 20px;}
+.third-content-inner-right .text {line-height: 1;color: #415664;}
+.third-content-inner-right .learn-more-btn {color: #608eae;margin: 20px 0px;font-size: 20px;}
+.third-content-right .testimonial-text {background-color: #daedff;padding: 25px 30px 50px;font-style: italic;font-size: 18px;margin-bottom: 33px;}
+.third-content-right .author-name {color: #465a68;}
+.testimonial-text::before {bottom: 79px;position: absolute;display: block;content: "";border-color: transparent;border-style: solid;
+    border-right-color: #daedff;border-width: 0.5rem 1.2rem 0.5rem;}
+
+/*footer styles*/
+.footer {background-color: #daedff;margin: 2px 20px 10px;text-align: center;}
+.footer li {display: inline-block;padding: 20px;list-style: none;}
+.footer a{color: #608eae}
+.footer a:hover{color: #245171;}
